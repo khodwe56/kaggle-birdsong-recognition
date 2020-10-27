@@ -9,7 +9,7 @@ class Accurac(Metric):
         self._score = None
         self._num_items = None
         self.threshold = threshold
-        super(SedF1ScoreFrame, self).__init__(output_transform=output_transform)
+        super(Accurac, self).__init__(output_transform=output_transform)
 
     @reinit__is_reduced
     def reset(self):
